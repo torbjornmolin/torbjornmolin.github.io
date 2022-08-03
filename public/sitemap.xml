@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>/page/about/</loc>
+    <lastmod>2022-08-03T02:13:50+00:00</lastmod>
+  </url><url>
+    <loc>/page/</loc>
+    <lastmod>2022-08-03T02:13:50+00:00</lastmod>
+  </url><url>
     <loc>/post/</loc>
     <lastmod>2022-08-03T02:13:50+00:00</lastmod>
   </url><url>
@@ -11,13 +17,7 @@
     <loc>/</loc>
     <lastmod>2022-08-03T02:13:50+00:00</lastmod>
   </url><url>
-    <loc>/page/about/</loc>
-    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
-  </url><url>
     <loc>/page/contact/</loc>
-    <lastmod>2015-04-03T02:13:50+00:00</lastmod>
-  </url><url>
-    <loc>/page/</loc>
     <lastmod>2015-04-03T02:13:50+00:00</lastmod>
   </url><url>
     <loc>/categories/</loc>

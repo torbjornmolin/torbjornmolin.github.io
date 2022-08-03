@@ -1,14 +1,10 @@
 +++
 title = "About"
-date = 2015-04-03T02:13:50Z
+date = 2022-08-03T02:13:50Z
 author = "Torbjörn Molin"
 description = "Things about me."
 +++
 
 ## About
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dolor in magna lobortis egestas. Suspendisse eu erat tempor, tristique neque eu, convallis nulla. Curabitur vel bibendum lacus, at semper mauris. Suspendisse aliquet commodo ex, sed sagittis metus aliquam id. Maecenas feugiat rutrum lorem vel imperdiet. Nullam ornare lectus ut enim finibus, et porttitor mi tincidunt. Aenean lacinia, leo quis vehicula eleifend, quam libero sagittis erat, at euismod augue mauris et sapien. Sed id vehicula lectus, sit amet auctor ipsum. Nunc sed massa vel ex condimentum aliquam in a enim. Cras enim sem, tristique eu enim ac, congue commodo mi. Integer quis orci at dolor blandit eleifend.
-
-## School
-
-Sed quis pulvinar nisi, sed dapibus lacus. Mauris tempus ex ut ipsum facilisis interdum. Integer feugiat urna sed feugiat tempor. Quisque dictum vestibulum feugiat. Nunc nec est volutpat lorem imperdiet egestas sit amet ut orci. Aliquam venenatis neque ipsum, a placerat lectus cursus at. Donec pellentesque tellus hendrerit faucibus posuere. Etiam gravida consequat lectus, volutpat consectetur velit convallis nec. Praesent sagittis luctus dignissim.
+I'm a freelance software developer based in Gothenburg, Sweden. I mainly do backend work in C# and .NET with the occasional frontend bits in javascript or typescript with one of the major frameworks. I've been interested in computers since my dad first bought an IBM 386 PC when I six or seven years old and programming has been with me in various forms almost since then.
