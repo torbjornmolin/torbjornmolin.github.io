@@ -1,0 +1,18 @@
+baseurl = "/"
+title = "Torbjörn Molin - Blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "Torbjörn Molin"
+    description = "Freelance software developer"
+    github = "https://github.com/torbjornmolin"
+    twitter = ""
+    email = "konsult@torbjornmolin.se"
+    opengraph = true
+    shareTwitter = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
