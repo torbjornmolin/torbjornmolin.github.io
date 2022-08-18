@@ -7,7 +7,7 @@ author = "Torbjörn Molin"
 
 ## Background
 
-A while back I was at a technical interview for a consultancy assignment and the interviewer asked about SOLID principles and Clean Code. I had heard of both and read a most of Clean Code, but I couldn't list what the acronym SOLID stands for so in order to perhaps make me remember it next time I decided to write this.
+A while back I was at a technical interview for a consultant assignment and the interviewer asked about SOLID principles and Clean Code. I had heard of both and read a most of Clean Code, but I couldn't list what the acronym SOLID stands for so in order to perhaps make me remember it next time I decided to write this.
 
 [SOLID](https://en.wikipedia.org/wiki/SOLID) is an acronym for a set of principles for development of object oriented software promoted by 'Uncle' Bob Martin who also wrote Clean Code. Some of them are quite self explanatory and others less so. Let's list them.
 
