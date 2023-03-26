@@ -2,7 +2,7 @@
 title = "About"
 date = 2022-08-03T02:13:50Z
 author = "Torbjörn Molin"
-description = "Things about me."
+description = "Things about me"
 +++
 
 ## About
