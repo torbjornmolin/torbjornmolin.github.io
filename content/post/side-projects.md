@@ -1,5 +1,5 @@
 ---
-title: "Hobby Projects"
+title: "Side Projects"
 date: 2023-03-26T08:36:18+02:00
 ---
 
