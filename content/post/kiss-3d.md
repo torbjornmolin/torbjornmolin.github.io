@@ -6,7 +6,7 @@ draft: false
 
 # Kiss3d
 
-A while back I was browsing [Are we game yet?](https://arewegameyet.rs) looking for a library to easily draw some 3D objects on screen and I came across [Kiss3d](https://github.com/sebcrozet/kiss3d) which does just that in an easy way.
+A while back I was browsing [Are we game yet?](https://arewegameyet.rs) looking for a library to easily draw some 3D objects on screen and I came across [Kiss3d](https://github.com/sebcrozet/kiss3d) which does just that in very basic way.
 
 I've always been a person who wants to learn things with a from-the-ground-up approach. It really is the shift left of learning. On the one hand, if you're successful, you'll build a solid foundation. On the other hand, it can quickly become overwhelming and take all the joy out of the process.
 
