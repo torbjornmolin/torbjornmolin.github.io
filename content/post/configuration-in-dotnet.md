@@ -4,7 +4,7 @@ date: 2025-02-06T18:53:01+01:00
 draft: false
 ---
 
-Some days that meme that I guess says that the natural evolution of a developer starts with simple code, progresses to get more and more complex, only to sooner or later return to a preference for simplicity. One area that leaves an annoying amount of room for improvising together solutions impossible for mere mortals to wrap their heads around is the way configuration works in .NET.
+Some days that meme that I guess says that the natural evolution of a developer starts with simple code, progresses to get more and more complex, only to sooner or later return to a preference for simplicity, seems more true than others. One area that leaves an annoying amount of room for improvising together solutions impossible for mere mortals to wrap their heads around is the way configuration works in .NET.
 
 It used to be, in the old days, that you had to use XML (urg, XML...) and when you wanted to make that XML specific to whatever environment your application was running in, you'd use a bunch of XML-attributes to find tags and replace them, or their values, or their children. At some point or another, ritual sacrifice was probably needed in order to please the XML-gods. The actual transformation was done when compiling the application (or should that be when "publishing" application or does it perhaps depend on if it's an ASP.NET-application or something else?).
 
