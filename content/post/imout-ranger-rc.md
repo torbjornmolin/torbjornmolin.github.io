@@ -54,5 +54,5 @@ Another way is to use [flashrom](https://www.flashrom.org/) with the mstarddc_sp
 flashrom -p mstarddc_spi:dev=/dev/i2c-1:0x49 -v backup_image.bin
 ```
 
-Will then get you a backup of the current content of the flash (provided that your i2c interface is available on /dev/i2c-1)
+Then gets you a backup of the current content of the flash (provided that your i2c interface is available on /dev/i2c-1)
 Once you have that, use flashrom to write new content to the flash (the chips on my cameras were 8mb NOR flash chips).
