@@ -6,7 +6,7 @@ draft: false
 
 # Background
 
-Recently I've bought a couple of IMOU Ranger RC wifi cameras in order to learn more about embedded Linux IOT devices. These cameras cannot out of the box be used stand alone, they can only be used with the IMOU App connected to IMOUT cloud services. That is more or less useless to me, so my goal was to install custom firmware on them. The firmware I picked ended up being [OpenIPC](https://openipc.org/) due to hardware support.
+Recently I've bought a couple of IMOU Ranger RC wifi cameras in order to learn more about embedded Linux IOT devices. These cameras cannot out of the box be used stand alone, they can only be used with the IMOU App connected to IMOU cloud services. That is more or less useless to me, so my goal was to install custom firmware on them. The firmware I picked ended up being [OpenIPC](https://openipc.org/) due to hardware support.
 
 There are a few versions of these cameras available, I have the 3- and 4-megapixels versions, but I've mainly focused on the 4 mp version.
 
