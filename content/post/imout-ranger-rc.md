@@ -2,6 +2,7 @@
 title: "IMOU Ranger RC Cameras"
 date: 2025-03-28T18:53:01+01:00
 draft: false
+author: "Torbjörn Molin"
 ---
 
 # Background
