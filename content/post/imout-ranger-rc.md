@@ -61,7 +61,7 @@ meson compile -C builddir
 ```
 
 ```
-flashrom -p mstarddc_spi:dev=/dev/i2c-1:0x49 -v backup_image.bin
+sudo ./builddir/flashrom -p mstarddc_spi:dev=/dev/i2c-1:0x49 --progress -r backup_image.bin
 ```
 
 Then gets you a backup of the current content of the flash (provided that your i2c interface is available on /dev/i2c-1)
