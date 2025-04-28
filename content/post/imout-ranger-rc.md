@@ -21,7 +21,7 @@ This camera is based on the Sigmastar SSC 337 SOC and an iComm SV6155P wifi modu
 
 ## Ports
 
-There is a UART header labeled J3 on the board next to the power input. Pin 3 is ground and the two pins before that are TX and RX (unsure of the order, it's usually quick trial and error each time I connect). The power connector has four unused pins, these are ethernet (GND, 5V, Ethernet green, green/white, orange, orange/white). The connectors themselves are 1,25mm pitch Molex Picoblade (or compatible). I found a box of pre-crimped wires and connector housings online as crimping wires with connectors that size seemed fiddly.
+There is a UART header labeled J3 on the board next to the power input. Pin 3 is ground and the two pins before that are TX and RX (unsure of the order, it's usually quick trial and error each time I connect). The power connector has four unused pins, these are ethernet (full list of pins are GND, 5V, Ethernet green, green/white, orange, orange/white). The connectors themselves are 1,25mm pitch Molex Picoblade (or compatible). I found a box of pre-crimped wires and connector housings online as crimping wires with connectors that size seemed fiddly.
 
 The wifi module get's power from GPIO pin 46, so that needs to be set high before the module will work. The SD card reader needs GPIO 45 to be pulled high, then low, before boot to work.
 
@@ -50,6 +50,15 @@ GPIOs:
 The stock firmware U-Boot can be accessed using the password '\*', keep sending it as soon as the device gets power. It is however a bit limited but if you connect ethernet using the pins on the power connector you might be able to use TFtp and flash new firmware that way.
 
 Another way is to use [flashrom](https://www.flashrom.org/) with the mstarddc_spi programmer. You may have to build a custom version of flashrom, as not all distributed binaries include all programmer drivers. The i2c interface on the camera is accessed using the same pins as the UART, so once you have that working you just need to connect the same leads to your i2c interface (I used a Raspberry PI).
+
+You need a version of flashrom with support for the mstarddc_spi-programmer:
+
+```
+git clone https://github.com/flashrom/flashrom.git
+cd flashrom
+meson setup builddir -D programmer=mstarddc_spi
+meson compile -C builddir
+```
 
 ```
 flashrom -p mstarddc_spi:dev=/dev/i2c-1:0x49 -v backup_image.bin
