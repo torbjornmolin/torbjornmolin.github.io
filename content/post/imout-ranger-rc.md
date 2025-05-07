@@ -44,6 +44,7 @@ GPIOs:
 | 79  | Red front LED     |
 | 76  | IR shutter open   |
 | 77  | IR shutter close  |
+| 80  | Speaker pin?      |
 
 ## Flashing firmware
 
